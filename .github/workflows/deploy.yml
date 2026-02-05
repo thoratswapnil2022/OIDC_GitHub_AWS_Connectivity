@@ -27,3 +27,6 @@ jobs:
 
       - name: list s3 buckets
         run: aws s3 ls
+      
+      - name: List EC2 Instances
+        run: aws ec2 describe-instances
