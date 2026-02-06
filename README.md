@@ -2,7 +2,7 @@
 
 This repository demonstrates how to securely connect **GitHub Actions workflows to AWS** using **OpenID Connect (OIDC)** without storing long-lived AWS credentials in GitHub Secrets.
 
-With OIDC, GitHub Actions can request short-lived AWS credentials dynamically — eliminating static access keys and improving security. :contentReference[oaicite:0]{index=0}
+With OIDC, GitHub Actions can request short-lived AWS credentials dynamically — eliminating static access keys and improving security.
 
 ---
 
@@ -127,22 +127,3 @@ aws-actions/configure-aws-credentials action docs
 
 👤 Contributors
 Swapnil Thorat
-
-(Add your team members or contributors here)
-
-📝 License
-This project is licensed under the MIT License.
-
-
----
-
-If you want, I can also help you:
-
-✅ Generate a **LICENSE file**  
-✅ Write a **Terraform Architecture diagram** section  
-✅ Add **Badges** (build status, license, security)  
-✅ Create a **Detailed architecture doc (docs/ folder)**  
-✅ Add **CI/CD testing badge + coverage**
-
-Just tell me what you want next! 🚀
-::contentReference[oaicite:6]{index=6}
