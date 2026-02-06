@@ -69,6 +69,7 @@ Configure trust policy to restrict access to your GitHub repository:
     }
   ]
 }
+```
 
 Replace your-org/your-repo with your GitHub repo path.
 
