@@ -71,7 +71,7 @@ Configure trust policy to restrict access to your GitHub repository:
 }
 Replace your-org/your-repo with your GitHub repo path.
 
-3. Attach Appropriate IAM Permissions
+### 3. Attach Appropriate IAM Permissions
 In AWS, attach only required policies (least-privilege):
 
 S3 access
@@ -82,7 +82,7 @@ Lambda, EKS, etc.
 
 Avoid broad policies like AdministratorAccess except for testing.
 
-4. GitHub Actions Workflow
+### 4. GitHub Actions Workflow
 Example in .github/workflows/deploy.yml:
 
 permissions:
@@ -109,7 +109,7 @@ jobs:
         run: aws s3 ls
 This workflow uses OIDC to authenticate and run AWS CLI commands.
 
-💡 How to Test
+### 5. 💡 How to Test
 Push workflow to main branch
 
 Check GitHub Actions logs
